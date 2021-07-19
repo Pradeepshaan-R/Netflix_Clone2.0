@@ -1,0 +1,66 @@
+/* TAB NAV 01 */
+
+.tab-icon-door {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    fill: var(--main-grey);
+}
+
+/* TAB NAV 02 */
+
+.tab-icon-devices {
+    width: 9.6875rem;
+    height: 9.6875rem;
+    fill: var(--main-grey);
+}
+
+/* TAB NAV 03 */
+
+.tab-icon-price {
+    width: 4.375rem;
+    height: 4.375rem;
+    fill: var(--main-grey);
+}
+
+/* TABS  */
+
+.tabs {
+    padding-top: 1rem;
+}
+
+.tab-nav-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    list-style: none;
+    color: var(--main-grey);
+    margin: 0 12%;
+}
+
+/* TABS HOVER EFFECT  */
+
+ul li:hover {
+    color: var(--main-white);
+    cursor: pointer;
+}
+
+ul li:hover svg path {
+    fill: var(--main-white);
+}
+
+/* THE ACTIVE TAB */
+
+.active {
+    border-bottom: 4px solid var(--main-red);
+}
+
+.tab-selected {
+    color: var(--main-white);
+}
+
+.tab-selected svg path {
+    fill: var(--main-white);
+}
